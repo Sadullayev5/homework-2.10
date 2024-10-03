@@ -1,0 +1,72 @@
+.liked-container{
+    margin: 10px 60px;
+}
+
+.liked-product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.liked-product:hover {
+    transform: scale(1.02);
+}
+
+.liked-product img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.liked-product-info {
+    flex: 1;
+}
+
+.liked-product h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.liked-product h4 {
+    margin: 4px 0 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.liked-product button {
+    padding: 9px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.liked-product button:hover {
+    background-color: #c0392b;
+}
+
+.liked-product a {
+    margin-left: 16px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .liked-product a:hover {
+    background-color: #0056b3;
+  }

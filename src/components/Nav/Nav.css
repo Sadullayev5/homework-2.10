@@ -1,0 +1,41 @@
+/* Nav.css */
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 0px 40px;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav li a:hover {
+    color: #f4b400;
+  }
+  
+  nav svg {
+    width: 24px;
+    height: 24px;
+    color: red;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  nav svg:hover {
+    transform: scale(1.2);
+  }
+  
